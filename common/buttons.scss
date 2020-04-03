@@ -84,7 +84,6 @@
 // --------------------------------------------------
 
 .btn-primary {
-  padding: 106px 112px;
   @include btn(
     $text-color: $secondary,
     $bg-color: $tertiary,
@@ -272,3 +271,8 @@
     outline: 1px currentColor dotted;
   }
 }
+
+.btn-link {
+  color: blue;
+}
+
