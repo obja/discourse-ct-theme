@@ -15,7 +15,7 @@
 ) {
   display: inline-block;
   margin: 0;
-  padding: 106px 112px;
+  padding: 6px 12px;
   min-height: 30px;
   border: none;
   box-sizing: border-box;
@@ -84,6 +84,7 @@
 // --------------------------------------------------
 
 .btn-primary {
+  padding: 106px 112px;
   @include btn(
     $text-color: $secondary,
     $bg-color: $tertiary,
